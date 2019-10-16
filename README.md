@@ -21,7 +21,9 @@
     <img src="https://travis-ci.org/fidisys/React-Native-Components.svg" alt="Build Status" />
   </a>
   <!-- Test Coverage -->
-
+   <a href="https://lerna.js.org/">
+    <img src="https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg" alt="Build Status" />
+  </a>
 </div>
 
 <br />

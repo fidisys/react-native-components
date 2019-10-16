@@ -10,8 +10,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@fidisys/expandable-card": "^1.0.1",
     "@react-native-community/async-storage": "^1.6.2",
-    "fidisys-expandable-card": "file:../packages/fidisys-expandable-card/fidisys-expandable-card-1.0.0.tgz",
     "react": "16.9.0",
     "react-native": "0.61.2",
     "react-native-gesture-handler": "^1.4.1",
