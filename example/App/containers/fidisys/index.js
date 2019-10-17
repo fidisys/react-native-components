@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { StyleSheet, Text,Dimensions, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, Dimensions, TouchableOpacity } from 'react-native';
 import { Container, Header, Content, HeaderBody, HeaderRight, HeaderLeft } from '../../components/index';
 import { GlobalStyle } from '../../theme/global';
 import SkeletonLoader from '../../components/skeleton-loader';
@@ -8,24 +8,36 @@ import SkeletonLoader from '../../components/skeleton-loader';
 export default class FidisysScreen extends PureComponent {
 	constructor(props) {
 		super(props);
+		this.state = {
+			loading: true
+		}
 		this.componentsCollection = ['fidisys-expandable-card', 'fidisys-'];
 	}
+	componentDidMount() {
+		setTimeout(() => {
+			this.setState((prev) => ({
+				loading: !prev.loading
+			}));
+		}, 5000);
+	}
 	render() {
-				const { height: HEIGHT, width: WIDTH } = Dimensions.get('window');
-
+		const { height: HEIGHT, width: WIDTH } = Dimensions.get('window');
+		const { loading } = this.state;
 		return (
 			<Container>
 				<Header barStyle="dark-content" statusbarColor="white">
 					<HeaderLeft />
 					<HeaderBody>
-						<Text style={[GlobalStyle.headerTitle]}>Header</Text>
+						<Text style={[GlobalStyle.headerTitle]}>Fidisys</Text>
 					</HeaderBody>
 					<HeaderRight />
 				</Header>
 				<Content>
 					<SkeletonLoader
-					 textStroke=""
-					 height={HEIGHT-80}>
+						loading={loading}
+						aspectRatio={0.75}
+						textStroke=""
+						height={HEIGHT - 160}>
 						<Text style={styles.contentTitle}>Fidisys Components</Text>
 						{this.componentsCollection.map((component, index) => (
 							<TouchableOpacity
