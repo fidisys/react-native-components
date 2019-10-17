@@ -125,9 +125,9 @@ export default class ExpandableCard extends Component {
                             <Text style={[styles.cardTitle, titleStyle]}>{cardTitle}</Text>
                             <View
                                 style={{
-                                    width: '8%',
-                                    flexDirection: 'column',
-                                    alignItems: 'flex-end'
+                              width: '8%',
+                              flexDirection: 'column',
+                              alignItems: 'flex-end'
                                 }}
                             >
                                 <Icon
