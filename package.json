@@ -3,15 +3,37 @@
   "private": true,
   "author": "Fidisys Technologies",
   "description": "Custom reuseable components for react native ",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/fidisys/React-Native-Components.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fidisys/React-Native-Components.git"
+  },
+  "scripts": {
+    "prettier": "prettier --config ./.prettierrc --check \"packages/**/*{.js,.json}\"",
+    "prettier:fix": "npm run prettier -- --write",
+    "pretty-quick": "pretty-quick --verbose --branch develop"
   },
   "workspaces": [
     "packages/*"
   ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "packages/**/*.{js,json,md,scss,css}": [
+      "npm run pretty-quick",
+      "git add"
+    ]
+  },
   "devDependencies": {
+    "@babel/parser": "^7.6.4",
+    "husky": "^3.0.9",
     "lerna": "^3.17.0",
     "react": "16.9.0"
+  },
+  "dependencies": {
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.18.2"
   }
 }
