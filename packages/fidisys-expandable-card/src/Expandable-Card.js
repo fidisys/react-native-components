@@ -103,7 +103,7 @@ export default class ExpandableCard extends Component {
           <View
             style={{
               height: 60,
-              flexDirection: 'column',
+                   flexDirection: 'column',
               alignItems: 'flex-start',
               justifyContent: 'flex-start'
             }}
