@@ -98,18 +98,18 @@ export default class ExpandableCard extends Component {
         <View
           style={{
             overflow: 'scroll'
-          }}
+                 }}
         >
           <View
             style={{
               height: 60,
                    flexDirection: 'column',
-              alignItems: 'flex-start',
+                   alignItems: 'flex-start',
               justifyContent: 'flex-start'
             }}
-            onLayout={this._setMinHeight.bind(this)}
+                 onLayout={this._setMinHeight.bind(this)}
           >
-            <TouchableOpacity
+                 <TouchableOpacity
               activeOpacity={0.35}
               style={{
                 paddingHorizontal: 15,
@@ -117,9 +117,9 @@ export default class ExpandableCard extends Component {
                 flex: 1,
                 flexDirection: 'row',
                 alignItems: 'center',
-                justifyContent: 'space-between'
+      justifyContent: 'space-between'
               }}
-              onPress={this.toggleCard}
+                 onPress={this.toggleCard}
             >
               <Text style={[styles.cardTitle, titleStyle]}>{cardTitle}</Text>
               <View
@@ -132,7 +132,7 @@ export default class ExpandableCard extends Component {
                 <Icon
                   name={this.state.toggle ? 'ios-arrow-up' : 'ios-arrow-down'}
                   style={[iconStyle]}
-                  size={25}
+                       size={25}
                 />
               </View>
             </TouchableOpacity>
