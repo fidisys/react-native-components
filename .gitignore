@@ -60,3 +60,9 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+# We are using yarn because of workspaces
+package-lock.json
+
+# npm pack
+*.tgz
