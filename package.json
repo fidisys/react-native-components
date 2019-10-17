@@ -3,15 +3,16 @@
   "private": true,
   "author": "Fidisys Technologies",
   "description": "Custom reuseable components for react native ",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/fidisys/React-Native-Components.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fidisys/React-Native-Components.git"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
     "lerna": "^3.17.0",
-    "react": "16.9.0"
+    "react": "16.9.0",
+    "all-contributors-cli": "^6.8.1"
   }
 }
