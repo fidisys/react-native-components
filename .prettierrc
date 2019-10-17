@@ -4,7 +4,7 @@
   "trailingComma": "none",
   "singleQuote": true,
   "useTabs": false,
-  "tabWidth": 2,
+  "tabWidth": 4,
   "arrowParens": "avoid",
   "bracketSpacing": true,
   "overrides": [
