@@ -9,8 +9,7 @@
   },
   "scripts": {
     "prettier": "prettier --config ./.prettierrc --check \"packages/**/*{.js,.json}\"",
-    "prettier:fix": "npm run prettier -- --write",
-    "pretty-quick": "pretty-quick --verbose --branch develop"
+    "prettier:fix": "npm run prettier -- --write"
   },
   "workspaces": [
     "packages/*"
@@ -21,8 +20,8 @@
     }
   },
   "lint-staged": {
-    "packages/**/*.{js,json,md,scss,css}": [
-      "npm run pretty-quick",
+    "packages/**/*.{js,json,md}": [
+      "npm run prettier:fix",
       "git add"
     ]
   },
