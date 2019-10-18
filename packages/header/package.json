@@ -1,6 +1,6 @@
 {
   "name": "@fidisys/header",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Header component for react-native page view",
   "keywords": [
     "react-native",
