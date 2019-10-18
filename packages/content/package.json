@@ -1,6 +1,6 @@
 {
   "name": "@fidisys/content",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Wrapper component for components withing header and footer using keyboard-aware-scrollView",
   "keywords": [
     "react-native",
