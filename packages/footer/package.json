@@ -1,0 +1,26 @@
+{
+  "name": "@fidisys/footer",
+  "version": "1.0.0",
+  "description": "React native wrapper component for footer",
+  "keywords": [
+    "react-native",
+    "footer",
+    "react"
+  ],
+  "author": "Fidisys Technologies",
+  "homepage": "https://github.com/fidisys/React-Native-Components#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "0.61.2"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fidisys/React-Native-Components/tree/master/packages/footer"
+  }
+}

@@ -1,4 +1,4 @@
-# fidisys-expandable-card
+# expandable-card
 
 This component make Animated Expandable card container for react native.
 

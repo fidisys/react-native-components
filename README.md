@@ -36,7 +36,12 @@
 
 React Native Components monorepo managed using lerna and available as npm packaged libraries.
 
-- [fidisys-expandable-card](/packages/fidisys-expandable-card/README.md)
+- [container](/packages/container/README.md)
+- [header](/packages/header/README.md)
+- [content](/packages/content/README.md)
+- [footer](/packages/footer/README.md)
+- [expandable-card](/packages/fidisys-expandable-card/README.md)
+- [skeleton-loader](/packages/skeleton-loader/README.md)
 
 ### Packages used for scaffolding
 
@@ -46,7 +51,7 @@ React Native Components monorepo managed using lerna and available as npm packag
 
 ---
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people ([😊](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
