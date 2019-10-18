@@ -1,0 +1,25 @@
+{
+  "semi": true,
+  "printWidth": 100,
+  "trailingComma": "none",
+  "singleQuote": true,
+  "useTabs": false,
+  "tabWidth": 4,
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "parser": "babel",
+        "singleQuote": true
+      }
+    },
+    {
+      "files": "*.json",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+dist
+*.md
+package.json
+package-lock.json
+.prettierrc
+*.snap
+.gitkeep
