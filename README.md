@@ -1,6 +1,3 @@
-<img src="https://user-images.githubusercontent.com/28846043/66642659-cb9f8c00-ec3a-11e9-9b88-de212cb16e0b.png" alt="fidisys-logo" align="center" height="400px" width="100%"/>
-
-<br />
 
 <div align="center"><strong>Custom React Native Components </strong></div>
 <div align="center">A highly scalable, butter smooth reuseable components for react native compatible for react-native init projects.</div>
