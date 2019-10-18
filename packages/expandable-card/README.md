@@ -1,4 +1,4 @@
-# fidisys-expandable-card
+# @fidisys/expandable-card
 
 This component make Animated Expandable card container for react native.
 
@@ -11,14 +11,22 @@ This component make Animated Expandable card container for react native.
 </tr>
 </table>
 
+## Getting Started
+
+1. react-native-vector-icons
+
+```
+ npm i --save react-native-vector-icons
+```
+
 ## Installation
-`` npm i fidisys-expandable-card --save ``
+`` npm i @fidisys/expandable-card --save ``
 
 ___
 
 ## Usage
 
-`` import { ExpandableCard } from 'fidisys-expandable-card'
+`` import { ExpandableCard } from '@fidisys/expandable-card'
  ``
 
 

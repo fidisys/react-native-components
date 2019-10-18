@@ -1,11 +1,9 @@
-<img src="https://user-images.githubusercontent.com/28846043/66642659-cb9f8c00-ec3a-11e9-9b88-de212cb16e0b.png" alt="fidisys-logo" align="center" height="300px" width="100%"/>
-
-<br />
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/28846043/66642659-cb9f8c00-ec3a-11e9-9b88-de212cb16e0b.png" width="300"/>
+</p>
 
 <div align="center"><strong>Custom React Native Components </strong></div>
 <div align="center">A highly scalable, butter smooth reuseable components for react native compatible for react-native init projects.</div>
-
-<br />
 
 <div align="center">
   <!-- Dependency Status -->
@@ -16,12 +14,10 @@
   <a href="https://david-dm.org/fidisys/React-Native-Components#info=devDependencies">
     <img src="https://david-dm.org/fidisys/React-Native-Components/dev-status.svg" alt="devDependency Status" />
   </a>
-  <!-- Build Status -->
-  <a href="https://travis-ci.org/fidisys/React-Native-Components">
-    <img src="https://travis-ci.org/fidisys/React-Native-Components.svg" alt="Build Status" />
-  </a>
   <!-- Test Coverage -->
-
+   <a href="https://lerna.js.org/">
+    <img src="https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg" alt="Build Status" />
+  </a>
 </div>
 
 <br />
@@ -34,17 +30,20 @@
 
 React Native Components monorepo managed using lerna and available as npm packaged libraries.
 
-- [fidisys-expandable-card](/packages/fidisys-expandable-card/README.md)
+- [container](/packages/container/README.md)
+- [header](/packages/header/README.md)
+- [content](/packages/content/README.md)
+- [footer](/packages/footer/README.md)
+- [expandable-card](/packages/fidisys-expandable-card/README.md)
+- [skeleton-loader](/packages/skeleton-loader/README.md)
 
-### Packages used for scaffolding
+### Scaffolding
 
-- lerna
-- react
-- react-native
+- [lerna](https://github.com/lerna/lerna)
+- [react](https://github.com/facebook/react)
+- [react-native](https://github.com/facebook/react-native)
 
----
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people ([😊](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -59,6 +58,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

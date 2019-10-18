@@ -1,14 +1,28 @@
 import React, { PureComponent } from 'react';
-import { StyleSheet, Text, TouchableOpacity } from 'react-native';
-import { Container, Header, Content, HeaderBody, HeaderRight, HeaderLeft } from '../../components/index';
+import { StyleSheet, Text, Dimensions, TouchableOpacity } from 'react-native';
+import { Header, HeaderBody, HeaderRight, HeaderLeft, Container, Content } from '../../components/index'
 import { GlobalStyle } from '../../theme/global';
+import SkeletonLoader from '../../components/skeleton-loader';
+
 
 export default class FidisysScreen extends PureComponent {
 	constructor(props) {
 		super(props);
+		this.state = {
+			loading: true
+		}
 		this.componentsCollection = ['fidisys-expandable-card', 'fidisys-'];
 	}
+	componentDidMount() {
+		setTimeout(() => {
+			this.setState((prev) => ({
+				loading: !prev.loading
+			}));
+		}, 5000);
+	}
 	render() {
+		const { height: HEIGHT, width: WIDTH } = Dimensions.get('window');
+		const { loading } = this.state;
 		return (
 			<Container>
 				<Header barStyle="dark-content" statusbarColor="white">
@@ -19,19 +33,25 @@ export default class FidisysScreen extends PureComponent {
 					<HeaderRight />
 				</Header>
 				<Content>
-					<Text style={styles.contentTitle}>Fidisys Components</Text>
-					{this.componentsCollection.map((component, index) => (
-						<TouchableOpacity
-							onPress={() => this.props.navigation.push('details',{title: component})}
-							activeOpacity={0.3}
-							style={styles.componentContainer}
-							key={index}
-						>
-							<Text style={styles.componentText}>
-								{`${index + 1}.`} {component}
-							</Text>
-						</TouchableOpacity>
-					))}
+					<SkeletonLoader
+						loading={loading}
+						aspectRatio={0.75}
+						textStroke=""
+						height={HEIGHT - 160}>
+						<Text style={styles.contentTitle}>Fidisys Components</Text>
+						{this.componentsCollection.map((component, index) => (
+							<TouchableOpacity
+								onPress={() => this.props.navigation.push('details', { title: component })}
+								activeOpacity={0.3}
+								style={styles.componentContainer}
+								key={index}
+							>
+								<Text style={styles.componentText}>
+									{`${index + 1}.`} {component}
+								</Text>
+							</TouchableOpacity>
+						))}
+					</SkeletonLoader>
 				</Content>
 			</Container>
 		);

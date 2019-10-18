@@ -1,0 +1,21 @@
+{
+  "name": "@fidisys/container",
+  "version": "0.0.0",
+  "description": "React Native Container Component To Wrap Header, Footer And Contents",
+  "author": "fidisys",
+  "homepage": "https://github.com/fidisys/react-native-components#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fidisys/react-native-components/tree/master/packages/container"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "prop-types": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/fidisys/react-native-components/issues"
+  }
+}

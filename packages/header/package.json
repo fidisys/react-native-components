@@ -1,0 +1,26 @@
+{
+  "name": "@fidisys/header",
+  "version": "0.0.0",
+  "description": "Header component for react-native page view",
+  "keywords": [
+    "react-native",
+    "react",
+    "header"
+  ],
+  "author": "fidisys",
+  "homepage": "https://github.com/fidisys/react-native-components#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fidisys/react-native-components/tree/master/packages/header"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "prop-types": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/fidisys/react-native-components/issues"
+  }
+}

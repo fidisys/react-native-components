@@ -1,0 +1,24 @@
+{
+  "name": "@fidisys/content",
+  "version": "0.0.0",
+  "description": "Wrapper component for components withing header and footer using keyboard-aware-scrollView",
+  "keywords": [
+    "react-native",
+    "react",
+    "content"
+  ],
+  "author": "fidisys",
+  "homepage": "https://github.com/fidisys/react-native-components#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-keyboard-aware-scroll-view": "*",
+    "prop-types": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fidisys/react-native-components/tree/master/packages/content"
+  }
+}

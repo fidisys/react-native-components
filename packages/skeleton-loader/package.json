@@ -1,0 +1,20 @@
+{
+  "name": "@fidisys/skeleton-loader",
+  "version": "0.0.0",
+  "description": "This component can show animated svg skeleton loader as a content placeholder",
+  "author": "fidisys",
+  "homepage": "https://github.com/fidisys/react-native-components#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*",
+    "react-native-vector-icons": "*",
+    "prop-types": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fidisys/react-native-components/tree/master/packages/skeleton-loader"
+  }
+}

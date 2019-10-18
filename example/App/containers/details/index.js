@@ -3,7 +3,8 @@ import { View, Text, StyleSheet,Image, Button } from 'react-native';
 import { Container, Header, Content, HeaderBody, HeaderRight, HeaderLeft, IconButton } from '../../components/index';
 import { GlobalStyle } from '../../theme/global';
 import Icon from 'react-native-vector-icons/Ionicons';
-import { ExpandableCard } from 'fidisys-expandable-card';
+import { ExpandableCard } from '@fidisys/expandable-card'
+import SkeletonLoader from '../../components/skeleton-loader';
 
 export default class FidisysComponentsScreens extends PureComponent {
 	constructor(props) {
@@ -29,6 +30,7 @@ export default class FidisysComponentsScreens extends PureComponent {
 				</Header>
 				<Content>
 					<Text style={styles.componentTitle}>{this.title}</Text>
+					<SkeletonLoader>
 					<View style={styles.componentContainer}>
 						{this.title == 'fidisys-expandable-card' && (
 							<ExpandableCard cardTitle="Fidisys card title">
@@ -45,6 +47,7 @@ export default class FidisysComponentsScreens extends PureComponent {
 							</ExpandableCard>
 						)}
 					</View>
+					</SkeletonLoader>
 				</Content>
 			</Container>
 		);

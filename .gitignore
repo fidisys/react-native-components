@@ -31,7 +31,7 @@ build/
 .gradle
 local.properties
 *.iml
-
+package-lock.json
 # node.js
 #
 node_modules/
@@ -66,3 +66,5 @@ package-lock.json
 
 # npm pack
 *.tgz
+
+lerna-debug.log
