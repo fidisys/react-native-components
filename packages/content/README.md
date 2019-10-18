@@ -1,4 +1,4 @@
-# content
+# @fidisys/content
 
 React Native Wrapper component for components between header and footer using keyboard-aware-scrollView
 

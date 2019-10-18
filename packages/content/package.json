@@ -14,7 +14,8 @@
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
-    "react-native-keyboard-aware-scroll-view": "*"
+    "react-native-keyboard-aware-scroll-view": "*",
+    "prop-types": "*"
   },
   "repository": {
     "type": "git",

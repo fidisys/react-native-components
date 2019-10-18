@@ -9,7 +9,8 @@
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
-    "react-native-vector-icons": "*"
+    "react-native-vector-icons": "*",
+    "prop-types": "*"
   },
   "homepage": "https://github.com/fidisys/react-native-components",
   "repository": {

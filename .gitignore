@@ -66,3 +66,5 @@ package-lock.json
 
 # npm pack
 *.tgz
+
+lerna-debug.log

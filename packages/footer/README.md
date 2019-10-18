@@ -1,4 +1,4 @@
-# footer
+# @fidisys/footer
 
 React native wrapper component for footer
 ## Demo

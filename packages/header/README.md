@@ -1,4 +1,4 @@
-# header
+# @fidisys/header
 
 Header component for react-native page view
 

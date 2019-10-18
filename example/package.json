@@ -10,8 +10,14 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@fidisys/expandable-card": "^1.0.1",
+    "@fidisys/container": "^0.0.0",
+    "@fidisys/content": "^0.0.0",
+    "@fidisys/expandable-card": "^1.0.3",
+    "@fidisys/footer": "^0.0.0",
+    "@fidisys/header": "^0.0.0",
+    "@fidisys/skeleton-loader": "^0.0.0",
     "@react-native-community/async-storage": "^1.6.2",
+    "prop-types": "^15.7.2",
     "react": "16.9.0",
     "react-native": "0.61.2",
     "react-native-gesture-handler": "^1.4.1",

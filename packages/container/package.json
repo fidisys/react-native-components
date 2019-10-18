@@ -12,7 +12,8 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "prop-types": "*"
   },
   "bugs": {
     "url": "https://github.com/fidisys/react-native-components/issues"

@@ -35,7 +35,9 @@ class Sidemenu extends PureComponent {
     const { isDarkMode } = this.state;
     const { theme } = this.props;
     return (
-      <Container>
+      <Container style={{
+        backgroundColor: theme.backgroundColor
+      }}>
         <Header
           barStyle="dark-content"
           statusbarColor="white">

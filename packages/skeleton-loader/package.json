@@ -9,8 +9,9 @@
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
+    "react-native-svg": "*",
     "react-native-vector-icons": "*",
-    "react-native-svg": "*"
+    "prop-types": "*"
   },
   "repository": {
     "type": "git",

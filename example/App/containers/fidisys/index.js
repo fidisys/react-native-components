@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { StyleSheet, Text, Dimensions, TouchableOpacity } from 'react-native';
-import { Container, Header, Content, HeaderBody, HeaderRight, HeaderLeft } from '../../components/index';
+import { Header, HeaderBody, HeaderRight, HeaderLeft, Container, Content } from '../../components/index'
 import { GlobalStyle } from '../../theme/global';
 import SkeletonLoader from '../../components/skeleton-loader';
 

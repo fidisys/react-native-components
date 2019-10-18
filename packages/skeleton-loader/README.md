@@ -1,4 +1,4 @@
-# skeleton-loader
+# @fidisys/skeleton-loader
 
 This component can show animated svg skeleton loader as a content placeholder.
 
@@ -33,9 +33,9 @@ ___
 ## Examples
 ```jsx
 <SkeletonLoader
-loading={this.state.isLoading}
-aspectRatio={0.75}>
-  <Text>Card Content</Text>
+  loading={this.state.isLoading}
+  aspectRatio={0.75}>
+    <Text>Card Content</Text>
 </SkeletonLoader>
 ```
 
