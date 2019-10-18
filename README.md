@@ -47,18 +47,16 @@ React Native Components monorepo managed using lerna and available as npm packag
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+<!-- prettier-ignore -->
 <table>
   <tr>
     <td align="center"><a href="https://github.com/ogandose"><img src="https://avatars1.githubusercontent.com/u/12514584?v=4" width="100px;" alt="Sophie Ogando"/><br /><sub><b>Sophie Ogando</b></sub></a><br /><a href="https://github.com/fidisys/react-native-components/commits?author=ogandose" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/justinkx"><img src="https://avatars3.githubusercontent.com/u/28846043?v=4" width="100px;" alt="Justin K Xavier"/><br /><sub><b>Justin K Xavier</b></sub></a><br /><a href="https://github.com/fidisys/react-native-components/commits?author=justinkx" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/cos1715"><img src="https://avatars0.githubusercontent.com/u/32968019?v=4" width="100px;" alt="Taras Samoilenko"/><br /><sub><b>Taras Samoilenko</b></sub></a><br /><a href="https://github.com/fidisys/react-native-components/commits?author=cos1715" title="Code">💻</a></td>
+    <td align="center"><a href="https://twitter.com/askjkrishna"><img src="https://avatars0.githubusercontent.com/u/11075561?v=4" width="100px;" alt="Jaya Krishna Namburu"/><br /><sub><b>Jaya Krishna Namburu</b></sub></a><br /><a href="https://github.com/fidisys/react-native-components/commits?author=JayaKrishnaNamburu" title="Code">💻</a> <a href="#infra-JayaKrishnaNamburu" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
