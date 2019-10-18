@@ -3,5 +3,5 @@
 const footer = require('..');
 
 describe('footer', () => {
-    it('needs tests');
+  it('needs tests');
 });

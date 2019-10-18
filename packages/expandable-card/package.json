@@ -1,6 +1,6 @@
 {
   "name": "@fidisys/expandable-card",
-  "version": "1.0.3",
+  "version": "0.0.0",
   "description": "This component make Animated Expandable card container for react native.",
   "main": "index.js",
   "keywords": [],

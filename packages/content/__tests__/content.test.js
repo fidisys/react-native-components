@@ -3,5 +3,5 @@
 const content = require('..');
 
 describe('content', () => {
-    it('needs tests');
+  it('needs tests');
 });

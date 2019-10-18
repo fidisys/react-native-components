@@ -3,5 +3,5 @@
 const header = require('..');
 
 describe('header', () => {
-    it('needs tests');
+  it('needs tests');
 });
