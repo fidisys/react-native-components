@@ -6,7 +6,7 @@
   "command": {
     "version": {
       "allowBranch": ["master", "hotfix/*"],
-      "message": "chore(release): 'publish %s'"
+      "message": "chore(release): 'publish to npm'"
     }
   },
   "changelog": {

@@ -12,10 +12,13 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
+    "prop-types": "*",
     "react": "*",
     "react-native": "*",
-    "react-native-keyboard-aware-scroll-view": "*",
-    "prop-types": "*"
+    "react-native-keyboard-aware-scroll-view": "*"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",

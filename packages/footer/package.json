@@ -12,12 +12,15 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
+    "prop-types": "*",
     "react": "*",
-    "react-native": "*",
-    "prop-types": "*"
+    "react-native": "*"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fidisys/react-native-components/tree/master/packages/footer"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

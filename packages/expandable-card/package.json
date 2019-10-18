@@ -7,14 +7,17 @@
   "author": "fidisys",
   "license": "MIT",
   "peerDependencies": {
+    "prop-types": "*",
     "react": "*",
     "react-native": "*",
-    "react-native-vector-icons": "*",
-    "prop-types": "*"
+    "react-native-vector-icons": "*"
   },
   "homepage": "https://github.com/fidisys/react-native-components",
   "repository": {
     "type": "git",
     "url": "https://github.com/fidisys/react-native-components/tree/master/packages/expandable-card"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

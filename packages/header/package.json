@@ -16,11 +16,14 @@
     "url": "git+https://github.com/fidisys/react-native-components/tree/master/packages/header"
   },
   "peerDependencies": {
+    "prop-types": "*",
     "react": "*",
-    "react-native": "*",
-    "prop-types": "*"
+    "react-native": "*"
   },
   "bugs": {
     "url": "https://github.com/fidisys/react-native-components/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
