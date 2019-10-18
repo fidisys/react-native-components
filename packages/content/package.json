@@ -7,15 +7,10 @@
     "react",
     "content"
   ],
-  "author": "Fidisys Technologies",
-  "homepage": "https://github.com/fidisys/React-Native-Components#readme",
+  "author": "fidisys",
+  "homepage": "https://github.com/fidisys/react-native-components#readme",
   "license": "MIT",
   "main": "index.js",
-  "devDependencies": {
-    "react": "^16.9.0",
-    "react-native": "0.61.2",
-    "react-native-keyboard-aware-scroll-view": "^0.9.1"
-  },
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
@@ -23,6 +18,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fidisys/React-Native-Components/tree/master/packages/content"
+    "url": "git+https://github.com/fidisys/react-native-components/tree/master/packages/content"
   }
 }

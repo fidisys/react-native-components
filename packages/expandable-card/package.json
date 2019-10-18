@@ -4,21 +4,16 @@
   "description": "This component make Animated Expandable card container for react native.",
   "main": "index.js",
   "keywords": [],
-  "author": "Fidisys Technologies",
+  "author": "fidisys",
   "license": "MIT",
-  "devDependencies": {
-    "react": "^16.9.0",
-    "react-native": "0.61.2",
-    "react-native-vector-icons": "6.6.0"
-  },
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
     "react-native-vector-icons": "*"
   },
-  "homepage": "https://github.com/fidisys/React-Native-Components",
+  "homepage": "https://github.com/fidisys/react-native-components",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fidisys/React-Native-Components/tree/master/packages/expandable-card"
+    "url": "https://github.com/fidisys/react-native-components/tree/master/packages/expandable-card"
   }
 }

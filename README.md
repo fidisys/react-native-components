@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/28846043/66642659-cb9f8c00-ec3a-11e9-9b88-de212cb16e0b.png" alt="fidisys-logo" align="center" height="300px" width="100%"/>
+<img src="https://user-images.githubusercontent.com/28846043/66642659-cb9f8c00-ec3a-11e9-9b88-de212cb16e0b.png" alt="fidisys-logo" align="center" height="400px" width="100%"/>
 
 <br />
 
