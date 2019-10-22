@@ -46,18 +46,15 @@ React Native Components monorepo managed using lerna and available as npm packag
 Thanks goes to these wonderful people ([😊](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+<!-- prettier-ignore -->
 <table>
   <tr>
     <td align="center"><a href="https://github.com/ogandose"><img src="https://avatars1.githubusercontent.com/u/12514584?v=4" width="100px;" alt="Sophie Ogando"/><br /><sub><b>Sophie Ogando</b></sub></a><br /><a href="https://github.com/fidisys/react-native-components/commits?author=ogandose" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/justinkx"><img src="https://avatars3.githubusercontent.com/u/28846043?v=4" width="100px;" alt="Justin K Xavier"/><br /><sub><b>Justin K Xavier</b></sub></a><br /><a href="https://github.com/fidisys/react-native-components/commits?author=justinkx" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/justinkx"><img src="https://avatars3.githubusercontent.com/u/28846043?v=4" width="100px;" alt="Justin K Xavier"/><br /><sub><b>Justin K Xavier</b></sub></a><br /><a href="https://github.com/fidisys/react-native-components/commits?author=justinkx" title="Code">💻</a> <a href="#ideas-justinkx" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-justinkx" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
     <td align="center"><a href="https://github.com/cos1715"><img src="https://avatars0.githubusercontent.com/u/32968019?v=4" width="100px;" alt="Taras Samoilenko"/><br /><sub><b>Taras Samoilenko</b></sub></a><br /><a href="https://github.com/fidisys/react-native-components/commits?author=cos1715" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/geekyrajshri"><img src="https://avatars2.githubusercontent.com/u/8193580?v=4" width="100px;" alt="Rajshri Singh Baghel "/><br /><sub><b>Rajshri Singh Baghel </b></sub></a><br /><a href="https://github.com/fidisys/react-native-components/commits?author=geekyrajshri" title="Code">💻</a></td>
   </tr>
 </table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
